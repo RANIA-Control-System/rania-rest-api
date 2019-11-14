@@ -1,0 +1,19 @@
+{
+  "name": "rania-rest-api",
+  "version": "1.0.0",
+  "description": "API for all the data in the RANIA Control System",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RANIA-Control-System/rania-rest-api.git"
+  },
+  "author": "RANIA Group 1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RANIA-Control-System/rania-rest-api/issues"
+  },
+  "homepage": "https://github.com/RANIA-Control-System/rania-rest-api#readme"
+}
