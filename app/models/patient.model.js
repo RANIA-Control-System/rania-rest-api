@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-
+//Schema defined in team drive/MongoDB Atlas
 const PatientSchema = mongoose.Schema(
   {
     name: {

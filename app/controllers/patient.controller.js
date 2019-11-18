@@ -1,9 +1,11 @@
 const Patient = require("../models/patient.model.js");
 
-// Create and Save a new Note
-exports.create = (req, res) => {};
+// Create and Save a new patient
+exports.create = (req, res) => {
+  //@TODO
+};
 
-// Retrieve and return all notes from the database.
+// Retrieve and return all patients from the database.
 exports.findAll = (req, res) => {
   console.log("fetching patients");
 
@@ -19,11 +21,17 @@ exports.findAll = (req, res) => {
     });
 };
 
-// Find a single note with a noteId
-exports.findOne = (req, res) => {};
+// Find a single patient with a patientId
+exports.findOne = (req, res) => {
+  //@TODO
+};
 
-// Update a note identified by the noteId in the request
-exports.update = (req, res) => {};
+// Update a patient patient by the patientId in the request
+exports.update = (req, res) => {
+  //@TODO
+};
 
-// Delete a note with the specified noteId in the request
-exports.delete = (req, res) => {};
+// Delete a patient with the specified patientId in the request
+exports.delete = (req, res) => {
+  //@TODO
+};
