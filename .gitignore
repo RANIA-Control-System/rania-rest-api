@@ -12,4 +12,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # sensitive files
- dbcredentials.js
+/config/database.config.js
