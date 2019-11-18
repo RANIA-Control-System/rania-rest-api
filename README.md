@@ -18,7 +18,7 @@ module.exports = {
 6. Run `node server.js` 
 7. Visit `http://localhost:3000/` in your browser. If everything worked successfully you should see: `{"message":"This is an example request."}`
 
-# 🗂 Database Structure
+# 🗂 Directory Structure & How to Contribute
 ```
 rania-rest-api/
     └── node_modules/
