@@ -1,7 +1,7 @@
 # 💻 Getting Started
 1. Clone the repo
 2. Run `cd rania-rest-api` & `npm install`
-3. Make a new file in the `config` directory called `database.config.js`
+3. Make a new directory called `config` and inside a new file called `database.config.js`
 4. Add this line:
 
 ```
