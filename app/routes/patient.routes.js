@@ -1,6 +1,7 @@
 module.exports = app => {
   const patients = require("../controllers/patient.controller.js");
 
+  //These can all be accessed at localhost:3000/ROUTE while the node server is running
   // Create a new Patient
   app.post("/patients", patients.create);
 
