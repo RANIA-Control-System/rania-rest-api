@@ -7,7 +7,7 @@
 `
 module.exports = {
   url:
-    "mongodb+srv://<USERNAME>:<PASSWORD>@481group1-gqzp2.mongodb.net/test?retryWrites=true&w=majority"
+    "mongodb+srv://USERNAME:PASSWORD@481group1-gqzp2.mongodb.net/test?retryWrites=true&w=majority"
 };
 `
 
