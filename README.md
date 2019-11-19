@@ -33,7 +33,7 @@ rania-rest-api/
         └── routes/
             └── <COLLECTION NAME>.routes.js
 ```
-This is a quick overview of how the api should be structured. I've structured out the patient collection, so if you look at all the files called patient.<TYPE>.js you should get an idea of how things work.
+This is a quick overview of how the api should be structured. I've structured out the patient collection, so if you look at all the files called `patient.<TYPE>.js` you should get an idea of how things work.
 
 ## 💾 Models 
 These define the schema of the database using mongooose. These are all based on collections that are either in the database already or on the spreadsheet in the team drive. It should be fairly straigtforward to add new models.
