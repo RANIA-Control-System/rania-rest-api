@@ -1,7 +1,7 @@
 # 💻 Getting Started
 1. Clone the repo
 2. Run `cd rania-rest-api` & `npm install`
-3. Make a new file in the `config` directory called `database.config.js`
+3. Make a new directory called `config` and inside a new file called `database.config.js`
 4. Add this line:
 
 ```
@@ -18,7 +18,7 @@ module.exports = {
 6. Run `node server.js` 
 7. Visit `http://localhost:3000/` in your browser. If everything worked successfully you should see: `{"message":"This is an example request."}`
 
-# 🗂 Database Structure
+# 🗂 Directory Structure & How to Contribute
 ```
 rania-rest-api/
     └── node_modules/
@@ -33,7 +33,7 @@ rania-rest-api/
         └── routes/
             └── <COLLECTION NAME>.routes.js
 ```
-This is a quick overview of how the api should be strucutred. I've structured out the patient collection, so if you look at all the files called patient.<TYPE>.js you should get an idea of how things work.
+This is a quick overview of how the api should be structured. I've structured out the patient collection, so if you look at all the files called `patient.<TYPE>.js` you should get an idea of how things work.
 
 ## 💾 Models 
 These define the schema of the database using mongooose. These are all based on collections that are either in the database already or on the spreadsheet in the team drive. It should be fairly straigtforward to add new models.
