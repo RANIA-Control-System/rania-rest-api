@@ -30,6 +30,7 @@ app.get("/", (req, res) => {
 });
 
 require("./app/routes/patient.routes.js")(app);
+require("./app/routes/remoteVisit.routes.js")(app);
 
 // listen for requests
 app.listen(3000, () => {
