@@ -47,5 +47,5 @@ This is where the bulk of the backend work is. These expand on the routes and co
 ## 🔌 Connecting Routes to Server
 Finally, once you have completed the model/route/controller for a specific document, you must add the routes to `server.js`. Simply add this line where the other routes are:
 ```
-require("./app/routes/remoteVisit.routes.js")(app);
+require("./app/routes/<COLLECTION NAME>.routes.js")(app);
 ```
