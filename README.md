@@ -43,3 +43,9 @@ These define the actions that can be done from the RANIA app or any connected de
 
 ## 🕹 Controllers
 This is where the bulk of the backend work is. These expand on the routes and contain all the logic for fetching and saving data. Again, see `patient.controller.js` for an example on how to write the code for these functions.
+
+## 🔌 Connecting Routes to Server
+Finally, once you have completed the model/route/controller for a specific document, you must add the routes to `server.js`. Simply add this line where the other routes are:
+```
+require("./app/routes/remoteVisit.routes.js")(app);
+```
