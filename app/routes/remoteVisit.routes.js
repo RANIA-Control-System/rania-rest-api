@@ -1,7 +1,8 @@
 module.exports = app => {
   const remoteVisits = require("../controllers/remoteVisit.controller.js");
 
-  //These can all be accessed at localhost:3000/ROUTE while the node server is running
+  //These can all be accessed at http://159.65.238.119:3000/ROUTE while
+  //the node server is running or http://localhost:3000/ROUTE when running locally
   // Create a new Remote Visit
   app.post("/remoteVisits", remoteVisits.create);
 
