@@ -15,6 +15,6 @@ module.exports = app => {
   // Update a Remote Visit with remoteVisitId
   app.put("/remoteVisit/:remoteVisitId", remoteVisits.update);
 
-  // Delete a Remote Visit with remoteVisit
+  // Delete a Remote Visit with remoteVisitId
   app.delete("/remoteVisit/:remoteVisitId", remoteVisits.delete);
 };
