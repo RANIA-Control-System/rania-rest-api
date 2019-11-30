@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 // Example request, should show up at localhost:3000
 app.get("/", (req, res) => {
   res.json({
-    message: "This is an example request."
+    message: "Welcome to the RANIA API. Please contact Group 1 for usage!"
   });
 });
 
