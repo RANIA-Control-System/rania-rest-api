@@ -9,7 +9,7 @@ module.exports = app => {
   // Retrieve all Remote Visits of a patient using patientId
   app.get("/remoteVisits/:patientId", remoteVisits.findAllForPatient);
 
-  // Retrieve a single Remote Visit with remotevisitId
+  // Retrieve a single Remote Visit with remoteVisitId
   app.get("/remoteVisits/:remoteVisitId", remoteVisits.findOne);
 
   // Update a Remote Visit with remoteVisitId
