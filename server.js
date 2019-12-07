@@ -31,7 +31,7 @@ app.get("/", (req, res) => {
 
 require("./app/routes/patient.routes.js")(app);
 require("./app/routes/remoteVisit.routes.js")(app);
-
+require("./app/routes/house.routes.js")(app);
 // listen for requests
 app.listen(3000, () => {
   console.log("Server is listening on port 3000");
